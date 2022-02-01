@@ -1,0 +1,18 @@
+.jumbotron{
+  padding-top: 5rem;
+  background-color: #ebc973;
+  color: white;
+}
+
+#about p {
+				text-align: justify;
+				margin: 20px;
+}
+
+#project {
+  background-color: #ebc973;
+}
+
+#project h2 {
+  color: white;
+}
