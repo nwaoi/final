@@ -4,9 +4,17 @@
   color: white;
 }
 
+a {
+				color: black;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
 #about p {
 				text-align: justify;
-				margin: 20px;
+				margin: 10px;
 }
 
 #gallery {
