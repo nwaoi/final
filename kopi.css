@@ -1,7 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+:root {
+  --white: #EEEDE9;
+  --black: #212121;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif, Times;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1.5px;
+}
+
+navbar-brand {
+				font-family: "Playfair Display", Times;
+}
+
 .jumbotron{
   padding-top: 5rem;
-  background-color: #ebc973;
+  background-color: #2D4263;
   color: white;
+}
+
+.jumbotron h1 {
+				font-family: 'Playfair Display', Times;
 }
 
 a {
@@ -12,15 +34,24 @@ a:link{
   text-decoration: none!important;
 }
 
+#about h2 {
+				font-family: 'Playfair Display', Times;
+}
+
 #about p {
 				text-align: justify;
-				margin: 10px;
+				margin: 25px;
+				font-size: 15px;
 }
 
 #gallery {
-  background-color: #ebc973;
+  background-color: #ECDBBA;
 }
 
 #gallery h2 {
   color: white;
+}
+
+#contact h2 {
+				font-family: 'Playfair Display', Times;
 }
